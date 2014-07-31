@@ -1,0 +1,31 @@
+collections:
+    all: ./samples/cdx/
+
+    older:
+        - ./samples/cdx/twitter-1.cdx
+        - ./samples/cdx/gplus-1.cdx
+
+    newer:
+        - ./samples/cdx/twitter-2.cdx
+        - ./samples/cdx/gplus-2.cdx
+
+    twitter-only:
+        - ./samples/cdx/twitter-1.cdx
+        - ./samples/cdx/twitter-2.cdx
+
+    gplus-only:
+        - ./samples/cdx/gplus-1.cdx
+        - ./samples/cdx/gplus-2.cdx
+
+archive_paths: ./samples/warcs/
+
+enable_http_proxy: true
+
+proxy_options:
+    enable_https_proxy: true
+
+    cookie_resolver: true
+    use_default_coll: false
+
+
+
