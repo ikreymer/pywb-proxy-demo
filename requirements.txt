@@ -1,3 +1,2 @@
-#git+git://github.com/ikreymer/pywb.git@develop
-pywb==0.5.0
+git+git://github.com/ikreymer/pywb.git@https-proxy
 uwsgi>=1.9
