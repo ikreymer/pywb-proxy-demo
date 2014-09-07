@@ -23,7 +23,11 @@ Usage
 
 3. Set the browser settings to `localhost:9080` by default. Set this in the browser's HTTP/S proxy as well.
 
-4. Browse to the special url `http://pywb.proxy/` to get to the pywb HTTPS certificate download page. Then, click on either the all platform / Firefox download link or the Windows download link to download the special root certificate. This will directly install the certificate into your browser. The certificate, [pywb_ca.pem](https://github.com/ikreymer/pywb-proxy-demo/blob/master/ca/pywb-ca.pem) (located in this repository) can also be imported manually into the browser if there are issues. This cert must be added as a trusted certificate for verifying websites. (This only needs to be done once).
+4. Browse to the special url `http://pywb.proxy/` to get to the pywb HTTPS certificate download page. Then, follow the instructions on the page to download either the all-platform/Firefox version or Windows-specific version of the pywb root certificate. Follow browser instructions and grant certificate rights to authenticate websites.
+
+   If there are issues with the process, the certificate  [pywb_ca.pem](https://github.com/ikreymer/pywb-proxy-demo/blob/master/ca/pywb-ca.pem) (located in *./ca* this repository) can also be added manually into the browser. This certificate must be added as a trusted certificate for verifying websites in order for HTTPS replay to work. In a sense, it is granting pywb the right to server https sites for replay.
+
+   (This step only needs to be done once per browser)
 
 5. This demo includes two urls which can be browsed in multiple collections and at multiple capture times:
 
