@@ -19,13 +19,13 @@ Usage
 
 1. Clone and install with `pip install -r requirements.txt`
 
-2. To enable HTTPS support, the included certificate, [pywb_ca.pem](https://github.com/ikreymer/pywb-proxy-demo/blob/master/pywb-ca.pem) must be added to the browser as a trusted certificate. The certificate (located in the root of this repo) should imported it into the browser as a trusted certificate for verifying websites. (This only needs to be done once).
-
 2. Start the demo by running `./run-proxy-demo.sh`
 
 3. Set the browser settings to `localhost:9080` by default. Set this in the browser's HTTP/S proxy as well.
 
-4. This demo includes two urls which can be browsed in multiple collections and at multiple capture times:
+4. Browse to the special url `http://pywb.proxy/` to get to the pywb HTTPS certificate download page. Then, click on either the all platform / Firefox download link or the Windows download link to download the special root certificate. This will directly install the certificate into your browser. The certificate, [pywb_ca.pem](https://github.com/ikreymer/pywb-proxy-demo/blob/master/ca/pywb-ca.pem) (located in this repository) can also be imported manually into the browser if there are issues. This cert must be added as a trusted certificate for verifying websites. (This only needs to be done once).
+
+5. This demo includes two urls which can be browsed in multiple collections and at multiple capture times:
 
    https://twitter.com/netpreserve
    
