@@ -1,2 +1,4 @@
-git+git://github.com/ikreymer/pywb.git@https-proxy
+#git+git://github.com/ikreymer/pywb.git@https-proxy
+pywb>=0.10.5
+certauth
 uwsgi>=1.9

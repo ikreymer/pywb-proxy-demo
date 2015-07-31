@@ -17,6 +17,9 @@ collections:
         - ./samples/cdx/gplus-1.cdx
         - ./samples/cdx/gplus-2.cdx
 
+
+cookie_scope: root
+
 archive_paths: ./samples/warcs/
 
 enable_http_proxy: true
